@@ -1,7 +1,13 @@
-I finished and deployed my Rails blog but people are contacting me because they can’t access any of my blog posts… Weird, it works for me…
+How to install it:
+$ gem install bundler
+$ bundle install
+$ rails db:migrate RAILS_ENV=development
+How to run the server
+$ rails s -b 0.0.0.0 -p 5000
 
-Could you take a look and fix it? My code base is here.
+How to start the rails console
+$ rails c
 
-Also, when you’re done, could you add a new feature please?
-
-I would like to add a boolean online for each Post object with a default value true. With this boolean, I will be able to hide/show some blog posts from the listing. I will also need a way to change this boolean in the Post#edit route. Could you do this for me!
+Admin account
+email: hbtn@hbtn.io
+password: toto1234
